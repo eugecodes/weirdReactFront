@@ -1,0 +1,35 @@
+{
+  "energyCosts": "Otros costes energéticos",
+  "formTitle": "Añadir coste energético",
+  "formSubtitle": "Complete los siguientes campos para añadir un nuevo coste energético",
+  "tableName": "lista costes energéticos",
+  "energyCostsData": "Datos coste energético",
+  "energyType": {
+    "gas": "Gas",
+    "electricity": "Luz"
+  },
+  "columns": {
+    "amount": "Cantidad",
+    "concept": "Concepto",
+    "state": "Estado",
+    "createdAt": "Creación desde",
+    "responsible": "Responsable"
+  },
+  "actions": {
+    "create": "Crear coste energético",
+    "delete": "Borrar coste energético",
+    "edit": "Modificar coste energético",
+    "save": "Añadir coste energético",
+    "deleted": "Se ha borrado el coste energético",
+    "edited": "Se ha modificado el coste energético",
+    "added": "Se ha creado el coste energético",
+    "disabled": "Se ha deshabilitado el coste energético",
+    "enabled": "Se ha habilitado el coste energético"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar el coste energético?",
+    "enable": "¿Seguro que quieres habilitar el coste energético?",
+    "disable": "¿Seguro que quieres deshabilitar el coste energético?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  }
+}

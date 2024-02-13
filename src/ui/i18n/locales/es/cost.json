@@ -1,0 +1,49 @@
+{
+  "costs": "Costes",
+  "formTitle": "Añadir coste",
+  "formSubtitle": "Complete los siguientes campos para añadir un nuevo coste",
+  "tableName": "lista costes",
+  "data": "Datos coste",
+  "columns": {
+    "name": "Nombre",
+    "mandatory": "Obligatorio",
+    "clientType": "Tipo de cliente afectado",
+    "energyType": "Tipo de energía",
+    "rates": "Tarifas",
+    "minPower": "Potencia mínima contrada (kW)",
+    "maxPower": "Potencia máxima contrada (kW)",
+    "minRange": "Rango mínimo (kW)",
+    "maxRange": "Rango máximo (kW)",
+    "costType": "Tipo de coste",
+    "quantity": "Cantidad",
+    "extraFee": "Comisión otros costes (€)",
+    "state": "Estado",
+    "createdAt": "Creación desde",
+    "responsible": "Responsable"
+  },
+  "actions": {
+    "create": "Crear coste",
+    "delete": "Borrar coste",
+    "edit": "Modificar coste",
+    "save": "Añadir coste",
+    "deleted": "Se ha borrado el coste",
+    "edited": "Se ha modificado el coste",
+    "added": "Se ha creado el coste",
+    "disabled": "Se ha deshabilitado el coste",
+    "enabled": "Se ha habilitado el coste"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar el coste?",
+    "enable": "¿Seguro que quieres habilitar el coste?",
+    "disable": "¿Seguro que quieres deshabilitar el coste?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "form": {
+    "errors": {
+      "clientType": "el tipo de cliente no es válido",
+      "energyType": "el tipo de energía no es válido",
+      "costType": "el tipo de coste no es válido"
+    }
+  },
+  "emptyRates": "No se han encontrado tarifas"
+}

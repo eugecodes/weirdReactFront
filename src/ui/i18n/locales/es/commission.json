@@ -1,0 +1,49 @@
+{
+  "commissions": "Comisiones",
+  "formTitle": "Añadir comisión",
+  "formSubtitle": "Complete los siguientes campos para añadir una nueva comisión",
+  "tableName": "lista comisiones",
+  "commissionData": "Datos comisiones",
+  "emptyRateTypes": "No se han encontrado tipos de tarifa",
+  "emptyRates": "No se han encontrado tarifas",
+  "data": "Información comisión",
+  "columns": {
+    "name": "Nombre",
+    "priceType": "Tipo de precio",
+    "energyType": "Tipo de energía",
+    "rateType": "Tipo de tarifa",
+    "rates": "Tarifas Afectadas",
+    "minPower": "Potencia mínima (kW)",
+    "maxPower": "Potencia máxima (kW)",
+    "minConsumption": "Consumo mínimo (kWh/año)",
+    "maxConsumption": "Consumo máximo (kWh/año)",
+    "percentagetestCommission": "% comisión test",
+    "testCommission": "Comisión test",
+    "createdAt": "Fecha de creación",
+    "range": "Rango afectado",
+    "rateTypeSegmentation": "Segmentación por tipo de tarifa"
+  },
+  "actions": {
+    "delete": "Borrar comisión",
+    "deleted": "Se ha borrado la comisión",
+    "edit": "Modificar comisión",
+    "edited": "Se ha modificado la comisión",
+    "added": "Se ha creado la comisión",
+    "disabled": "Se ha deshabilitado la comisión",
+    "enabled": "Se ha habilitado la comisión",
+    "save": "Añadir comisión"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar la comisión?",
+    "enable": "¿Seguro que quieres habilitar la comisión?",
+    "disable": "¿Seguro que quieres deshabilitar la comisión?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "form": {
+    "errors": {
+      "priceType": "el tipo de precio no es válido",
+      "energyType": "el tipo de energía no es válido",
+      "rangeType": "el tipo de rango no es válido"
+    }
+  }
+}

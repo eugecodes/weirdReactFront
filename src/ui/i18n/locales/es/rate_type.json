@@ -1,0 +1,48 @@
+{
+  "rateTypes": "Tipos de tarifa",
+  "formTitle": "Añadir tipo de tarifa",
+  "formSubtitle": "Complete los siguientes campos para añadir un nuevo tipo de tarifa",
+  "tableName": "lista tipos de tarifa",
+  "rateTypesData": "Datos tipo de tarifa",
+  "energyType": {
+    "gas": "Gas",
+    "electricity": "Luz"
+  },
+  "columns": {
+    "name": "Nombre",
+    "energyType": "Tipo de energía",
+    "minPower": "Potencia mínima (kW)",
+    "maxPower": "Potencia máxima (kW)",
+    "minPowerUppercase": "POTENCIA MÍNIMA (kW)",
+    "maxPowerUppercase": "POTENCIA MÁXIMA (kW)",
+    "state": "Estado",
+    "createdAt": "Creación desde",
+    "responsible": "Responsable"
+  },
+  "actions": {
+    "delete": "Borrar tipo de tarifa",
+    "deleted": "Se ha borrado el tipo de tarifa",
+    "edit": "Modificar tipo de tarifa",
+    "edited": "Se ha modificado el tipo de tarifa",
+    "added": "Se ha creado el tipo de tarifa",
+    "disabled": "Se ha deshabilitado el tipo de tarifa",
+    "enabled": "Se ha habilitado el tipo de tarifa",
+    "save": "Añadir tipo de tarifa"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar el tipo de tarifa?",
+    "enable": "¿Seguro que quieres habilitar el tipo de tarifa?",
+    "disable": "¿Seguro que quieres deshabilitar el tipo de tarifa?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "labels": {
+    "minPower": "POTENCIA MÍNIMA (kW)",
+    "maxPower": "POTENCIA MÁXIMA (kW)"
+  },
+  "form": {
+    "errors": {
+      "rate_type": "El tipo de tarifa no es válido",
+      "maxLowerThanMin": "El máximo no puede ser inferior al mínimo"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+import type { Id } from "@/src/common/utils/types";
+import type { UserModel } from "@/src/core/user/domain/models/user_model";
+import type { ConstructorType } from "@/src/common/interfaces/constructor_type";
+
+export class DetailContactModel {
+  id: Id;
+  clientId: Id;
+  isActive: boolean;
+  isMainContact: boolean;
+  name: string;
+  email: string;
+  phone: string;
+  createdAt: string;
+  user: UserModel;
+
+  constructor(contact: ConstructorType<DetailContactModel>) {
+    this.id = contact.id;
+    this.clientId = contact.clientId;
+    this.isActive = contact.isActive;
+    this.isMainContact = contact.isMainContact;
+    this.name = contact.name;
+    this.email = contact.email;
+    this.phone = contact.phone;
+    this.createdAt = contact.createdAt;
+    this.user = contact.user;
+  }
+
+  creationData() {
+    return {
+      createdAt: this.createdAt,
+      createdBy: this.user?.name || ""
+    };
+  }
+}

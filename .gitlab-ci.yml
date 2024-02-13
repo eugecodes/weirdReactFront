@@ -1,0 +1,85 @@
+stages:
+  - build
+  - deploy
+
+.x_build: &generic_build
+  image: node:16.15.1-alpine
+  before_script:
+    - corepack enable
+    - yarn install
+  script: yarn build
+  artifacts:
+    paths:
+      - build
+
+.x_deploy: &generic_deploy
+  image:
+    name: amazon/aws-cli:latest
+    entrypoint:
+      - /bin/bash
+      - -c
+  allow_failure: false
+  before_script:
+    - aws configure set region $S3_BUCKET_REGION
+  script:
+    - aws s3 sync ./build/ s3://$S3_BUCKET
+  after_script:
+    - aws cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION --paths "/*"
+
+build_develop:
+  <<: *generic_build
+  only:
+    - develop
+    - feature/cicd
+  stage: build
+  variables:
+    REACT_APP_API_URL: $API_URL_STAGING
+    REACT_APP_SENTRY_DSN: $SENTRY_DSN
+    REACT_APP_SENTRY_ENABLED: $SENTRY_ENABLED
+    SENTRY_ENVIRONMENT: staging
+
+deploy_develop:
+  <<: *generic_deploy
+  only:
+    - develop
+    - feature/cicd
+  dependencies:
+    - build_develop
+  stage: deploy
+  variables:
+    S3_BUCKET: $S3_BUCKET_STAGING
+    S3_BUCKET_REGION: $S3_BUCKET_REGION_STAGING
+    CF_DISTRIBUTION: $CF_DISTRIBUTION_STAGING
+    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_STAGING
+    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_STAGING
+  environment:
+    name: staging
+    url: https://staging.test.es
+
+build_production:
+  <<: *generic_build
+  only:
+    - master
+  stage: build
+  variables:
+    REACT_APP_API_URL: $API_URL_PRODUCTION
+    REACT_APP_SENTRY_DSN: $SENTRY_DSN
+    REACT_APP_SENTRY_ENABLED: $SENTRY_ENABLED
+    SENTRY_ENVIRONMENT: production
+
+deploy_production:
+  <<: *generic_deploy
+  only:
+    - master
+  dependencies:
+    - build_production
+  stage: deploy
+  variables:
+    S3_BUCKET: $S3_BUCKET_PRODUCTION
+    S3_BUCKET_REGION: $S3_BUCKET_REGION_PRODUCTION
+    CF_DISTRIBUTION: $CF_DISTRIBUTION_PRODUCTION
+    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_PRODUCTION
+    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+  environment:
+    name: production
+    url: https://test.es

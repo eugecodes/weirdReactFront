@@ -1,0 +1,44 @@
+{
+  "profiles": "Usuarios",
+  "formTitle": "Añadir usuario",
+  "formSubtitle": "Complete los siguientes campos para añadir un nuevo usuario",
+  "tableName": "lista usuarioes",
+  "profileData": "Datos usuario",
+  "profileType": "Tipo usuario",
+  "date": "Fecha",
+  "columns": {
+    "name": "Nombre",
+    "surnames": "Apellidos",
+    "mail": "Mail",
+    "type": "Tipo",
+    "state": "Estado",
+    "createdAt": "Creación desde",
+    "responsible": "Responsable"
+  },
+  "actions": {
+    "enable": "Habilitar",
+    "enabled": "Se ha habilitado el usuario",
+    "disable": "Deshabilitar",
+    "disabled": "Se ha deshabilitado el usuario",
+    "remove": "Eliminar",
+    "delete": "Borrar usuario",
+    "deleted": "Se ha eliminado el usuario",
+    "view": "Ver detalle",
+    "edit": "Modificar",
+    "edited": "Se ha modificado el usuario",
+    "editProfile": "Modificar usuario",
+    "save": "Añadir usuario",
+    "added": "Se ha añadido un nuevo usuario",
+    "cancel": "Cancelar",
+    "keepEditing": "Seguir Editando",
+    "cancelChanges": "Cancelar cambios"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar el usuario?",
+    "enable": "¿Seguro que quieres habilitar el usuario?",
+    "disable": "¿Seguro que quieres deshabilitar el usuario?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "enabled": "Habilitado",
+  "disabled": "Deshabilitado"
+}

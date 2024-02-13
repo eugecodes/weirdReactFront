@@ -1,0 +1,25 @@
+{
+  "contacts": "Contactos",
+  "client": "Cliente",
+  "formTitle": "Añadir contacto",
+  "formSubtitle": "Complete los siguientes campos para añadir un nuevo contacto",
+  "data": "Datos del contacto",
+  "actions": {
+    "delete": "Borrar contacto",
+    "deleted": "Se ha borrado el contacto",
+    "edit": "Modificar contacto",
+    "edited": "Se ha modificado el contacto",
+    "added": "Se ha creado el contacto",
+    "save": "Añadir contacto"
+  },
+  "columns": {
+    "name": "Nombre",
+    "email": "Email",
+    "phone": "Teléfono",
+    "isMainContact": "Es contacto principal"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar el contacto?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  }
+}

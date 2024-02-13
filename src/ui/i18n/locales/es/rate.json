@@ -1,0 +1,77 @@
+{
+  "rates": "Tarifas",
+  "formTitle": "Añadir tarifa",
+  "formSubtitle": "Complete los siguientes campos para añadir una nueva tarifa",
+  "tableName": "lista tarifas",
+  "rateData": "Datos tarifa",
+  "rateLight": "Tarifas luz",
+  "rateGas": "Tarifas gas",
+  "emptyRateTypes": "No se han encontrado tipos de tarifa",
+  "emptyRate": "No se han encontrado tarifas",
+  "data": "Información tarifa",
+  "choose": "Elegir Tarifa",
+  "chooseDescription": "Elige entre las siguientes tarifas para realizar el estudio de ahorro.",
+  "columns": {
+    "name": "Nombre",
+    "marketer": "Comercializadora",
+    "priceType": "Tipo de precio",
+    "energyType": "Tipo de energía",
+    "clientType": "Tipo de cliente",
+    "rateType": "Tipo de tarifa",
+    "permanency": "Permanencia",
+    "length": "Duración de tarifa (meses)",
+    "isFullRenewable": "Energía 100% renovable",
+    "compensationSurplus": "Compensación de excedentes",
+    "compensationSurplusValue": "Valor de compensación de excedentes (€/kWh)",
+    "minPower": "Potencia mínima (kW)",
+    "maxPower": "Potencia máxima (kW)",
+    "energyPrices": "Precios de energía (kW/año)",
+    "energyPrice": "P{{price}}",
+    "powerPrices": "Precios de potencia (kW/día)",
+    "powerPrice1": "Precio energía (€/kWh)",
+    "fixedTermPrice": "Precio término fijo (€/día)",
+    "state": "Estado",
+    "createdAt": "Creación desde",
+    "responsible": "Responsable",
+    "powerRange": "Rango potencia",
+    "consumptionRange": "Rango consumo",
+    "minConsumption": "Consumo mínimo (MWh)",
+    "maxConsumption": "Consumo máximo (MWh)",
+    "price": "Precios"
+  },
+  "decision": {
+    "yes": "Sí",
+    "no": "No"
+  },
+  "actions": {
+    "delete": "Borrar tarifa",
+    "deleted": "Se ha borrado la tarifa",
+    "edit": "Modificar tarifa",
+    "edited": "Se ha modificado la tarifa",
+    "added": "Se ha creado la tarifa",
+    "disabled": "Se ha deshabilitado la tarifa",
+    "enabled": "Se ha habilitado la tarifa",
+    "save": "Añadir tarifa"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar la tarifa?",
+    "enable": "¿Seguro que quieres habilitar la tarifa?",
+    "disable": "¿Seguro que quieres deshabilitar la tarifa?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "form": {
+    "errors": {
+      "priceType": "el tipo de precio no es válido",
+      "energyType": "el tipo de energía no es válido",
+      "clientType": "el tipo de cliente no es válido"
+    },
+    "labels": {
+      "energyPrices": "Precios de energía (€/kWh)",
+      "powerPrices": "Precios de potencia (€/kW/día)",
+      "fixedTermPrice": "Precio término fijo (€/día)",
+      "minPower": "POTENCIA MÍNIMA (kW)",
+      "maxPower": "POTENCIA MÁXIMA (kW)",
+      "compensationSurplusValue": "VALOR DE COMPENSACIÓN DE EXCEDENTES (€/kWh)"
+    }
+  }
+}

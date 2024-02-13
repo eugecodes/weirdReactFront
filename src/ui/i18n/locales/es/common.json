@@ -1,0 +1,135 @@
+{
+  "auth": {
+    "weAreYour": "Somos tu",
+    "energyAdministrator": "gestor energético",
+    "changePassword": "Cambiar contraseña",
+    "editProfile": "Editar perfil",
+    "logOut": "Cerrar sesión"
+  },
+  "errors": {
+    "general": {
+      "required": "Campo requerido",
+      "email": "No has introducido un email válido",
+      "phone": "No has introducido un teléfono válido",
+      "iban": "No has introducido un numero de cuenta válido",
+      "number": "No es un número válido",
+      "integer": "No es un número entero",
+      "positive": "No es un número positivo",
+      "maxDecimals": "El número máximo de decimales es {{maxDecimals}}",
+      "maxLowerThanMin": "El máximo no puede ser inferior al mínimo",
+      "cif": "No has introducido un CIF válido",
+      "boolean": "No has seleccionado una opción",
+      "string": "El dato introducido no es de tipo texto",
+      "empty": "No hay resultados para tu búsqueda",
+      "minMaxLength": "La longitud debe tener entre {{min}} y {{max}} caracteres. Por favor, revisa que los datos introducidos sean correctos",
+      "cups": "La longitud del CUPS debe ser de 20 o 22 caracteres. Por favor, revisa que los datos introducidos sean correctos"
+    },
+    "default": "Ha ocurrido un error inesperado, por favor inténtalo de nuevo más tarde"
+  },
+  "table": {
+    "rowsPerPage": "Filas por página",
+    "of": "de",
+    "clean": "Limpiar",
+    "empty": "No hay resultados para tu búsqueda",
+    "selected_one": "{{count}} seleccionado",
+    "selected_other": "{{count}} seleccionados",
+    "downloadAll": "Exportar todos los resultados",
+    "downloadSelected": "Exportar los elementos selecionados",
+    "deleteSelected": "Eliminar los elementos selecionados"
+  },
+  "detailPage": {
+    "createdAt": "Fecha de creación",
+    "createdBy": "Responsable de creación"
+  },
+  "header": {
+    "home": "Inicio",
+    "notifications": "Notificaciones",
+    "settings": "Ajustes"
+  },
+  "actions": {
+    "enable": "Habilitar",
+    "disable": "Deshabilitar",
+    "remove": "Eliminar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "copy": "Copiar",
+    "view": "Ver detalle",
+    "edit": "Modificar",
+    "keepEditing": "Seguir Editando",
+    "cancelChanges": "Cancelar cambios",
+    "copied": "Texto copiado en el portapapeles"
+  },
+  "status": {
+    "enabled": "Habilitado",
+    "disabled": "Deshabilitado"
+  },
+  "sure": {
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "columns": {
+    "date": "Fecha"
+  },
+  "energyType": {
+    "gas": "Gas",
+    "electricity": "Luz"
+  },
+  "priceType": {
+    "fixedFixed": "Fijo fijo",
+    "fixedBase": "Fijo base"
+  },
+  "clientType": {
+    "company": "Empresa",
+    "selfEmployed": "Autónomo",
+    "particular": "Particular",
+    "comunityOwners": "CCPP"
+  },
+  "marginType": {
+    "consumeRange": "Rango de consumo",
+    "rateType": "Tipo de tarifa"
+  },
+  "costType": {
+    "eurMonth": "€/mes",
+    "percentage": "% sobre factura",
+    "eurKwh": "€/kWh"
+  },
+  "rangeType": {
+    "power": "Potencia",
+    "consumption": "Consumo"
+  },
+  "studyStatus": {
+    "completed": "Finalizado",
+    "inProgress": "En progreso"
+  },
+  "invoiceNotificationType": {
+    "email": "Email",
+    "postal": "Postal"
+  },
+  "ownerType": {
+    "self": "Propio",
+    "marketer": "Comercializadora/Distribuidora",
+    "other": "Otros"
+  },
+  "counterType": {
+    "normal": "Normal",
+    "telematic": "Telemático"
+  },
+  "contractStatus": {
+    "incomplete": "Incompleto",
+    "requested": "Solicitado",
+    "waiting-marketer": "Esperando comercializadora",
+    "waiting-client-sign": "Esperando firma del cliente",
+    "signed": "Firmado",
+    "activated": "Activado",
+    "finished": "Finalizado",
+    "marketer-issue": "Incidencia comercializadora",
+    "distributor-issue": "Incidencia distribuidora",
+    "cancelled": "Cancelado"
+  },
+  "editDescription": "Edita los campos que quieras y presiona el botón “guardar” para modificar los cambios.",
+  "cancelDescription": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos.",
+  "keepEditing": "Seguir editando",
+  "cancelChanges": "Cancelar cambios",
+  "data": "Datos",
+  "yes": "Si",
+  "no": "No"
+}

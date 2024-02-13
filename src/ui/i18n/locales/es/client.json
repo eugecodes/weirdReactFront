@@ -1,0 +1,70 @@
+{
+  "clients": "Clientes",
+  "formTitle": "Añadir cliente",
+  "formSubtitle": "Complete los siguientes campos para añadir un nuevo cliente",
+  "tableName": "lista clientes",
+  "rateData": "Datos clientes",
+  "emptyClient": "No se han encontrado clientes",
+  "data": "Información cliente",
+  "invoicing": "Datos de facturación",
+  "contacts": "Contactos",
+  "supply_points": "Puntos de suministro",
+  "columns": {
+    "id": "Identificador",
+    "isActive": "Activo",
+    "alias": "Alias",
+    "fiscalName": "* Nombre Fiscal / Nombre y Apellido",
+    "cif": "* DNI / CIF",
+    "clientType": "Tipo de cliente",
+    "invoiceNotificationType": "Tipo de notificación",
+    "invoiceEmail": "Email envío facturas",
+    "invoicePostal": "Dirección envio facturas",
+    "bankAccountHolder": "Titular de la cuenta",
+    "bankAccountNumber": "Cuenta bancaria",
+    "fiscalAddress": "Dirección fiscal",
+    "isRenewable": "Energía 100% renovable",
+    "createdAt": "Creación desde",
+    "user": "Usuario"
+  },
+  "tabs": {
+    "data": "Detalle del cliente",
+    "contacts": "Contactos",
+    "supply_points": "Puntos de suministro"
+  },
+  "actions": {
+    "delete": "Borrar cliente",
+    "deleted": "Se ha borrado el cliente",
+    "edit": "Modificar cliente",
+    "edited": "Se ha modificado el cliente",
+    "added": "Se ha creado el cliente",
+    "disabled": "Se ha deshabilitado el cliente",
+    "enabled": "Se ha habilitado el cliente",
+    "save": "Añadir cliente"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar el cliente?",
+    "enable": "¿Seguro que quieres habilitar el cliente?",
+    "disable": "¿Seguro que quieres deshabilitar el cliente?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "tooltip": {},
+  "form": {
+    "errors": {
+      "clientType": "el tipo de cliente no es válido",
+      "invoiceNotificationType": "el tipo de cliente no es válido"
+    },
+    "titles": {
+      "data": "Datos generales",
+      "notification": "Notificaciones",
+      "invoicing": "Facturacion",
+      "others": "Otros",
+      "main_contact": "Contacto principal"
+    }
+  },
+  "contact": {
+    "name": "Nombre",
+    "email": "Email",
+    "phone": "Teléfono",
+    "isMainContact": "Contacto principal"
+  }
+}

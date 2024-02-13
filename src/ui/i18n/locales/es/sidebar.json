@@ -1,0 +1,44 @@
+{
+  "users": {
+    "title": "Usuarios"
+  },
+  "marketParams": {
+    "title": "Parámetros de mercado",
+    "rateType": "Tipos de tarifa",
+    "energyCosts": "Otros costes energéticos"
+  },
+  "marketers": {
+    "title": "Comercializadoras",
+    "myMarketers": "Mis comercializadoras",
+    "rateLight": "Tarifas de Luz",
+    "rateGas": "Tarifas de Gas",
+    "historicalPrices": "Histórico de precios",
+    "theoreticalCommissions": "Listado de comisiones teóricas"
+  },
+  "savingStudies": {
+    "title": "Estudios de ahorro"
+  },
+  "commissions": {
+    "title": "Comisiones",
+    "invoices": "Facturas",
+    "chargebacks": "Cobros",
+    "channel": "Canales"
+  },
+  "client": {
+    "title": "Clientes",
+    "myClients": "Mis clientes",
+    "conditionsWithRetailers": "Condiciones con comercializadora",
+    "logicSavingStudies": "Lógica estudios de ahorro"
+  },
+  "supplyPoints": {
+    "title": "Puntos de suministro"
+  },
+  "contract": {
+    "title": "Contratos"
+  },
+  "sips": {
+    "title": "SIPS"
+  },
+  "consumptionData": "Datos de consumo",
+  "documentation": "Documentación"
+}

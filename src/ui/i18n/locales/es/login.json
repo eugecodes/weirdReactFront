@@ -1,0 +1,36 @@
+{
+  "loginTitle": "¡Hola de nuevo!",
+  "loginForm": {
+    "errors": {
+      "required": "Campo requerido",
+      "username": "Nombre de usuario invalido",
+      "email": "No has introducido un email válido",
+      "password": {
+        "minPass": "La contraseña debe tener almenos 8 letras",
+        "formatPass": "La contraseña debe tener mayúsculas mínusculas y un signo"
+      }
+    },
+    "submit": "Iniciar sesión",
+    "fields": {
+      "username": {
+        "placeholder": "Usuario"
+      },
+      "email": {
+        "placeholder": "Email"
+      },
+      "password": {
+        "placeholder": "Contraseña"
+      }
+    }
+  },
+  "loginFooter": {
+    "supportMsg": "¿Has olvidado tu contraseña?"
+  },
+  "loginSuccess": {
+    "welcomeMsg": "Hola, {{ name }}",
+    "connect": "Que tengas un buen día"
+  },
+  "loginError": {
+    "badCredentials": "Usuario o contraseña incorrectos. Por favor, revisa tus credenciales"
+  }
+}

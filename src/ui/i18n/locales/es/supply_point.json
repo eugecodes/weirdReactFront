@@ -1,0 +1,75 @@
+{
+  "supply_points": "Puntos de suministro",
+  "formTitle": "Añadir punto de suministro",
+  "formEditTitle": "Editar punto de suministro",
+  "formSubtitle": "Complete los siguientes campos para añadir un nuevo punto de suministro",
+  "tableName": "lista puntos de suministro",
+  "rateData": "Datos puntos de suministro",
+  "emptyClient": "No se han encontrado puntos de suministro",
+  "data": "Información punto de suministro",
+  "invoicing": "Datos de facturación",
+  "contacts": "Contactos",
+  "columns": {
+    "id": "Identificador",
+    "isActive": "Activo",
+    "alias": "Alias",
+    "cups": "CUPS",
+    "energyType": "Tipo de energia",
+    "supplyAddress": "Dirección del punto de suministro",
+    "supplyPostalCode": "* Código postal",
+    "supplyCity": "* Ciudad",
+    "supplyProvince": "* Provincia",
+    "bankAccountHolder": "* Titular de la cuenta bancaria",
+    "bankAccountNumber": "* Cuenta bancaria",
+    "fiscalAddress": "* Dirección fiscal",
+    "isRenewable": "Energía 100% renovable",
+    "maxAvailablePower": "Potencia máxima contratable",
+    "voltage": "Tensión",
+    "counterType": "Tipo de contador",
+    "counterProperty": "Propietario del contador",
+    "counterPrice": "Coste del contador",
+    "createdAt": "Creación desde",
+    "user": "Usuario",
+    "client": "Cliente"
+  },
+  "tabs": {
+    "data": "Detalle del punto de suministro",
+    "contacts": "Contactos"
+  },
+  "actions": {
+    "delete": "Borrar punto de suministro",
+    "deleted": "Se ha borrado el punto de suministro",
+    "edit": "Modificar punto de suministro",
+    "edited": "Se ha modificado el punto de suministro",
+    "added": "Se ha creado el punto de suministro",
+    "disabled": "Se ha deshabilitado el punto de suministro",
+    "enabled": "Se ha habilitado el punto de suministro",
+    "save": "Añadir punto de suministro"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar el punto de suministro?",
+    "enable": "¿Seguro que quieres habilitar el punto de suministro?",
+    "disable": "¿Seguro que quieres deshabilitar el punto de suministro?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "tooltip": {},
+  "form": {
+    "errors": {
+      "clientType": "el tipo de punto de suministro no es válido",
+      "invoiceNotificationType": "el tipo de punto de suministro no es válido"
+    },
+    "titles": {
+      "data": "Datos generales",
+      "address": "Dirección",
+      "invoicing": "Facturacion",
+      "others": "Otros",
+      "counter": "Contador"
+    }
+  },
+  "contact": {
+    "name": "Nombre",
+    "email": "Email",
+    "phone": "Teléfono",
+    "isMainContact": "Es contacto principal"
+  }
+}

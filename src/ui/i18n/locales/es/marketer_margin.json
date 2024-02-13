@@ -1,0 +1,49 @@
+{
+  "marketerMargin": "Márgenes comercial",
+  "formTitle": "Añadir margen comercial",
+  "formSubtitle": "Complete los siguientes campos para añadir una nueva margen comercial",
+  "tableName": "lista márgenes comercial",
+  "marketerMarginTypesData": "Datos margen comercial",
+  "emptyMarketerMargin": "No se han encontrado márgenes comercial",
+  "emptyRateTypes": "No se han encontrado tipos de tarifa",
+  "emptyRates": "No se han encontrado tarifas",
+  "data": "Información margen comercial",
+  "columns": {
+    "marketer": "Comercializadora",
+    "rate": "Tarifa",
+    "type": "Condicionante del margen",
+    "rateType": "Tipo de tarifa",
+    "consumeRange": "Rango consumo",
+    "minConsume": "Consumo mínimo (MWh)",
+    "maxConsume": "Consumo máximo (MWh)",
+    "minConsumeUnit": "CONSUMO MÍNIMO (MWh)",
+    "maxConsumeUnit": "CONSUMO MÁXIMO (MWh)",
+    "comercialMargin": "margen comercial",
+    "minMargin": "Margen mínimo (€/MWh)",
+    "minMarginUnit": "MARGEN MÍNIMO (€/MWh)",
+    "maxMargin": "Margen máximo (€/MWh)",
+    "maxMarginUnit": "MARGEN MÁXIMO (€/MWh)",
+    "margin": "Margen"
+  },
+  "actions": {
+    "delete": "Borrar margen comercial",
+    "deleted": "Se ha borrado el margen comercial",
+    "edit": "Modificar margen comercial",
+    "edited": "Se ha modificado el margen comercial",
+    "added": "Se ha creado el margen comercial",
+    "disabled": "Se ha deshabilitado el margen comercial",
+    "enabled": "Se ha habilitado el margen comercial",
+    "save": "Añadir margen comercial"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar el margen comercial?",
+    "enable": "¿Seguro que quieres habilitar el margen comercial?",
+    "disable": "¿Seguro que quieres deshabilitar el margen comercial?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "form": {
+    "errors": {
+      "type": "el condicionante del margen no es válido"
+    }
+  }
+}

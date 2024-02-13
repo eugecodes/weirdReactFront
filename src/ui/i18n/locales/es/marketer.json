@@ -1,0 +1,53 @@
+{
+  "marketers": "Comercializadoras",
+  "formTitle": "Añadir comercializadora",
+  "formSubtitle": "Complete los siguientes campos para añadir una nueva comercializadora",
+  "tableName": "lista comercializadoras",
+  "standarInformation": "Información estándar",
+  "tabs": {
+    "data": "Datos",
+    "lightRate": "Tarifas Luz",
+    "gasRate": "Tarifas Gas",
+    "marketerMargin": "Márgenes comerciales",
+    "cost": "Costes",
+    "commission": "Comisiones"
+  },
+  "columns": {
+    "name": "Nombre",
+    "fiscalName": "Nombre legal",
+    "cif": "CIF",
+    "email": "Email de contacto",
+    "state": "Estado",
+    "createdAt": "Creación desde",
+    "responsible": "Responsable",
+    "fee": "Fee (€/kWh)",
+    "maxConsume": "Consumo máximo disponible (kWh)",
+    "consumeRange": "Año del rango de consumo"
+  },
+  "actions": {
+    "delete": "Borrar comercializadora",
+    "deleted": "Se ha borrado la comercializadora",
+    "edit": "Modificar comercializadora",
+    "edited": "Se ha modificado la comercializadora",
+    "added": "Se ha creado la comercializadora",
+    "disabled": "Se ha deshabilitado la comercializadora",
+    "enabled": "Se ha habilitado la comercializadora",
+    "save": "Añadir comercializadora"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar la comercializadora?",
+    "enable": "¿Seguro que quieres habilitar la comercializadora?",
+    "disable": "¿Seguro que quieres deshabilitar la comercializadora?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "detail": {
+    "fee": "FEE (€/kWh)",
+    "maxConsume": "CONSUMO MÁXIMO DISPONIBLE (kWh)"
+  },
+  "info": {
+    "fee": "Valor para calcular el margen comercial",
+    "maxConsumeRange": "Límite de consumo para aplicar precios especiales",
+    "consumeRange": "Año del rango de consumo",
+    "consumeRangeInfo": "Año de consumo utilizado por la comercializadora para calcular el consumo teórico del cliente y así asignar las variables afectadas por este dato. Se utiliza de manera predeterminada los últimos 12 meses."
+  }
+}

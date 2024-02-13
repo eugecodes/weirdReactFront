@@ -1,0 +1,96 @@
+{
+  "contracts": "Contratos",
+  "formTitle": "Añadir contrato",
+  "formEditTitle": "Editar contrato",
+  "formSubtitle": "Complete los siguientes campos para añadir un nuevo contrato",
+  "tableName": "lista contratos",
+  "rateData": "Datos contratos",
+  "emptyClient": "No se han encontrado contratos",
+  "data": "Información contrato",
+  "invoicing": "Datos de facturación",
+  "contacts": "Contactos",
+  "columns": {
+    "id": "Identificador",
+    "status": "Estado",
+    "isActive": "Activo",
+    "client": "Cliente",
+    "clientAlias": "Alias del cliente",
+    "owner": "Titular Suministro",
+    "cif": "CIF/DNI",
+    "alias": "Alias de suministro",
+    "cups": "CUPS",
+    "supplyAddress": "Dirección suministro",
+    "supplyPostalCode": "Código postal",
+    "supplyCity": "Ciudad",
+    "supplyProvince": "Provincia",
+    "rateType": "Tipo de tarifa",
+    "rateName": "Nombre de tarifa",
+    "preferredStartDate": "Fecha Inicio teórica",
+    "startDate": "Fecha Inicio Real",
+    "expectedEndDate": "Fecha Fin teórica",
+    "endDate": "Fecha Fin Real",
+    "period": "Duración del contrato",
+    "energyType": "Tipo de Energía",
+    "supplyPoint": "Punto de suministro",
+    "power": "Potencia a contratar P{{current}} (kW)",
+    "power1": "Potencia a contratar P1 (kW)",
+    "power2": "Potencia a contratar P2 (kW)",
+    "power3": "Potencia a contratar P3 (kW)",
+    "power4": "Potencia a contratar P4 (kW)",
+    "power5": "Potencia a contratar P5 (kW)",
+    "power6": "Potencia a contratar P6 (kW)",
+    "signatureFirstName": "Nombre del firmante",
+    "signatureLastName": "Apellidos del firmante",
+    "signatureDni": "DNI del firmante",
+    "signatureEmail": "Email del firmante",
+    "signaturePhone": "Teléfono del firmante",
+    "marketer": "Comercializadora",
+    "statusMessage": "Mensaje de estado"
+  },
+  "tabs": {
+    "data": "Detalle del contrato",
+    "contacts": "Contactos"
+  },
+  "actions": {
+    "delete": "Borrar contrato",
+    "deleted": "Se ha borrado el contrato",
+    "edit": "Modificar contrato",
+    "edited": "Se ha modificado el contrato",
+    "added": "Se ha creado el contrato",
+    "disabled": "Se ha deshabilitado el contrato",
+    "enabled": "Se ha habilitado el contrato",
+    "save": "Añadir contrato",
+    "status": "Cambiar estado"
+  },
+  "sure": {
+    "delete": "¿Seguro que quieres eliminar el contrato?",
+    "enable": "¿Seguro que quieres habilitar el contrato?",
+    "disable": "¿Seguro que quieres deshabilitar el contrato?",
+    "cancelCreate": "¿Seguro que quieres cancelar el proceso? Si lo haces, no se guardarán los datos introducidos."
+  },
+  "tooltip": {},
+  "form": {
+    "errors": {
+      "clientType": "el tipo de contrato no es válido",
+      "invoiceNotificationType": "el tipo de contrato no es válido"
+    },
+    "titles": {
+      "client": "Datos del cliente",
+      "data": "Datos generales",
+      "supplyPoint": "Información del punto de suministro",
+      "address": "Dirección del punto de suministro",
+      "rate": "Datos de tarificación",
+      "invoicing": "Facturacion",
+      "others": "Otros",
+      "power": "Potencia",
+      "dates": "Fechas",
+      "signature": "Firmante"
+    }
+  },
+  "contact": {
+    "name": "Nombre",
+    "email": "Email",
+    "phone": "Teléfono",
+    "isMainContact": "Es contacto principal"
+  }
+}

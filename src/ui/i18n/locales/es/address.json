@@ -1,0 +1,11 @@
+{
+  "address": "Dirección",
+  "type": "Tipo de vía",
+  "name": "Nombre de vía",
+  "number": "Número",
+  "subdivision": "Subdivisión",
+  "others": "Otros",
+  "postalCode": "Código postal",
+  "city": "Población",
+  "province": "Provincia"
+}
